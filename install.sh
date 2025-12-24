@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-readonly REPO="https://github.com/vantesh/dotfiles"
+readonly REPO="https://github.com/jirwin/dotfiles"
 
 if [[ -n "${NO_COLOR:-}" ]] || [[ ! -t 2 ]] || [[ "${TERM:-}" = "dumb" ]]; then
   readonly COLOR_RESET=""
